@@ -8,7 +8,7 @@ class ListingAdmin(admin.ModelAdmin):
     list_display_links = ('id', 'title')
     list_filter = ('realtor',)
     list_editable = ('is_published',)
-    search_fields = ('title', 'price', 'address', 'city', 'state', 'zipcode')
+    search_fields = ('title', 'price', 'address', 'city', 'state', 'zipcode', 'description')
     list_per_page = 25
 
 
